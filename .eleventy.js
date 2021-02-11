@@ -8,6 +8,9 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = (config) => {
 
+    /* --- PASSTHROUGH --- */
+    config.addPassthroughCopy('assets');
+
     /* --- PLUGINS --- */
     config.addPlugin(eleventyNavigationPlugin);
 
@@ -18,14 +21,6 @@ module.exports = (config) => {
         dir: {
             input: 'src',
             output: 'build'
-        },
-        // Support file extensions
-        templateFormats: [
-            "md",
-            "njk",
-            "css",
-            "svg",
-            "png"
-        ]
+        }
     }
 }
