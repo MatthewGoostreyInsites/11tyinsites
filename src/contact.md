@@ -1,6 +1,6 @@
 ---
 title: My Insites -- Contact
-description: This 11ty site has been developed to test Insites
+description: Contact
 layout: base.njk
 eleventyNavigation:
   key: Contact

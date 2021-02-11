@@ -1,6 +1,6 @@
 ---
 title: My Insites -- About
-description: This 11ty site has been developed to test Insites
+description: This page is all about the site
 layout: base.njk
 eleventyNavigation:
   key: About

@@ -1,20 +1,22 @@
 {% include "partials/head.njk" %}
 
 <header>
-    <nav>
+    <nav class="grid header">
         {% navlist collections.all | eleventyNavigation, page %}
     </nav>
 </header>
 
-<hr />
-<main>
-{% block content %}
+<main class="grid">
+    <div class="main">
+    {% block content %}
 
-    <h1>{{ title }}</h1>
+        <h1>{{ description }}</h1>
 
-    {{ content | safe }}
+        {{ content | safe }}
 
-{% endblock %}
+    {% endblock %}
+    </div>
+
 </main>
 
 {% include "partials/foot.njk" %}

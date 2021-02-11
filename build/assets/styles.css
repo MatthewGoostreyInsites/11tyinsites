@@ -1,20 +1,46 @@
-body {
+html, body, p, a, ul, li {
     margin: 0;
     padding: 0;
     text-decoration: none;
     color: inherit;
 }
-nav ul {
+li {
     list-style: none;
-    display: flex;
-    background: #74828F;
-    color: white;
 }
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* default styles */
+/* --- default styles --- */
 body {
     font-family: 'Quicksand', Helvetica, sans-serif;
     background-color: #FEF6EB;
+}
+
+/* css grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* --- styles --- */
+/* header */
+.header {
+    background-color: #74828F;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.header ul {
+    padding: 14px 0;
+    display: flex;
+    grid-column: 4/10;
+}
+.header li {
+    padding: 10px 0;
+    margin-right: 16px;
+}
+
+/* main */
+.main {
+    grid-column: 4/10;
 }
