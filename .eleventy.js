@@ -16,7 +16,8 @@ module.exports = (config) => {
 
     return {
         dir: {
-            input: 'src'
+            input: 'src',
+            output: 'build'
         },
         // Support file extensions
         templateFormats: [
