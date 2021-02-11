@@ -15,7 +15,7 @@ module.exports = (config) => {
     config.addPlugin(eleventyNavigationPlugin);
 
     /* --- SHORTCODES --- */
-    config.addShortcode('navlist', require('./components/nav.js'));
+    // config.addShortcode('navlist', require('./components/nav.js'));
 
     return {
         dir: {

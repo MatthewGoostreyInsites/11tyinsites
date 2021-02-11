@@ -2,7 +2,19 @@
 
 <header>
     <nav class="grid header">
-        {% navlist collections.all | eleventyNavigation, page %}
+        {# {% navlist collections.all | eleventyNavigation, page %} #}
+        <div class="headerLeft">
+            <ul>
+                <li><a href="/">My Insites</a></li>
+            </ul>
+        </div>
+        <div class="headerRight">
+            <ul>
+                <li><a href="/about">About</a>&nbsp;&nbsp;&bull;</li>
+                <li><a href="/contact">Contact</a>&nbsp;&nbsp;&bull;</li>
+                <li><a href="/blogs">Blog</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
 
