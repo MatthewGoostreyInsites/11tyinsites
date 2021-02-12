@@ -7,8 +7,6 @@ html, body, p, a, ul, li {
 li {
     list-style: none;
 }
-/* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /* --- default styles --- */
 body {
@@ -40,11 +38,12 @@ body {
     margin-right: 10px;
 }
 .headerLeft {
-    font-size: 1.8rem;
+    font-size: 2rem;
     grid-column: 4/6;
+    font-weight: 600;
 }
 .headerRight {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     grid-column: 9/13;
     padding-top: 10px;
     /* padding-left: 20px; */
