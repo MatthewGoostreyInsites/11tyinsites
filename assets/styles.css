@@ -44,7 +44,7 @@ body {
 }
 .headerRight {
     font-size: 1.4rem;
-    grid-column: 9/13;
+    grid-column: 7/13;
     padding-top: 10px;
     /* padding-left: 20px; */
 }
